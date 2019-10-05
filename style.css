@@ -3,11 +3,10 @@ html{box-sizing: border-box;}
 
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(./assets/bg.jpg);
-    margin:0px;
-    
+    margin:0px;    
 }
+
 div.container{
-    
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -15,52 +14,54 @@ div.container{
     width:1000px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header{
     display:flex;
     justify-content: flex-end;
     margin-top:20px;
-    
-    
 }
+
 .myHeader{
-    
     display:flex;
     text-align:center;
     justify-content: flex-end;
-    
 }
+
 .paragraphs{
     display:flex;
     justify-content: baseline;
-   
 }
+
 .p1{
    color:white;
    margin-right:20px; 
-   
 }
+
 .p2, .p3{
     color:white;
     margin-right:50px;
     font-size: 30px;
     margin-top:0px;
-    
 }
+
 .p3{
   margin-bottom: 0px;  
   line-height: 7px;
   margin-right:0px;
 }
+
 .paragraph3{
     margin-right:0px;
     display:flex;
     flex-direction: column;
 }
+
 .icons{
     display:flex;
     text-align: center;
     color:white;
 }
+
 .facebook{
     color: white;
     background-color: rgb(58,79,138);
@@ -71,16 +72,19 @@ div.container{
     margin-left:10px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .rss{
 background-color:rgb(196,130,51);
 margin-left:10px;
 box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .twitter{
 background-color: rgb(94,132,190);
 margin-left:10px;
 box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .youtube{
 background-color: rgb(167,45,43);
 font-size:40px;
@@ -91,6 +95,7 @@ color:white;
 margin-left:10px;
 box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .facebook, .rss, .twitter{
 height:50px;
 width: 50px;
@@ -98,7 +103,9 @@ font-size:40px;
 color:white;
 text-align:center;
 }
+
 /* END OF HEADER --- BEGGINNING OF NAVIGATION BAR --- */
+
 ul.nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -108,12 +115,10 @@ ul.nav{
     margin-left:0px;
     padding-top:10px;
     padding-left:0px;
-   
 }
+
 li{
     display:flex;
-    
-
     height:40px;
     width:243px;
     background-color: rgb(169,39,44);
@@ -121,24 +126,21 @@ li{
     text-align: center;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
     font-family: Arial, Helvetica, sans-serif;
-    
     color:white;
     margin-left:0px;
     text-decoration: none;
-    
-    justify-content: center;
-    
-    
+    justify-content: center; 
 }
 a{
     color:white;
     text-decoration: none;
-    
 }
+
 .firstLink{
     font-size: 16px;
     line-height: 40px;
 }
+
 .top-image{
     border: 10px solid white;
     background-image: url("./assets/top-image.png");
@@ -150,14 +152,17 @@ a{
     height: 350px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .top-image-grid::after{
     padding: 45px 10px; 
     position: relative;
     bottom:300px;
 }
+
 .top-image .top-image-grid{
     opacity: 0.3;
 }
+
 .logo{
     margin-top:20px;
     bottom: 30px;
@@ -165,6 +170,7 @@ a{
     padding: 45px 10px; 
     position: absolute;
 }
+
 /* END OF TOP IMAGE */
 
 .circle{
@@ -179,9 +185,8 @@ a{
     display:flex;
     justify-content: center;
     margin:30px 0px -5px;
-    
-
 }
+
 .circle2{
     width:15px;
     height:15px;
@@ -195,6 +200,7 @@ a{
     justify-content: center;
     margin:-33px 0px -15px;
 }
+
 .circle3{
     width:7.5px;
     height:7.5px;
@@ -202,11 +208,13 @@ a{
     border-radius: 50%;
     margin:10px;
 }
+
 .radio3{
     display:flex;
     justify-content: center;
     margin:-16px 69px 0px 0px;
 }
+
 .main-paragraphs{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -217,36 +225,36 @@ a{
    align-content: space-between;
    gap: 10px;
 }
+
 .main-paragraph1, .main-paragraph2, .main-paragraph3{
     display: flex;
     flex-direction: column;
     padding: 20px;
     background-color:white;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
-    
-
 }
 
 .q{
  font-size:24px;
-
 }
+
 .w{
     font-size: 14px;
     color:#ccc;  
 }
+
 .e{
     font-size:12px;
     line-height:20px;
 }
+
 .r{
-    
     align-items: baseline;
     text-align: center;
     font-size:14px;
-    color:rgb(169,39,44);
-    
+    color:rgb(169,39,44);    
 }
+
 /* START OF GRID CODE*/
 
 .Grid-management{
@@ -263,7 +271,6 @@ a{
     text-align: center;
 }
 
-
 .head-image2{
     display:grid;
     align-items: center;
@@ -276,6 +283,7 @@ a{
     background-position-y: -10px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .head-image1{
     display:grid;
     align-items: center;
@@ -289,6 +297,7 @@ a{
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 
 }
+
 .aside-image{
     display:grid;
     align-items: center;
@@ -301,6 +310,7 @@ a{
     background-position-y: 0px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .footer-image{
     display:grid;
     align-items: center;
@@ -313,6 +323,7 @@ a{
     background-position-y: -100px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 /* END OF GRID CODE*/
 
 .skateboards{
@@ -326,6 +337,7 @@ a{
     position: relative;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .redArrow{
     display: grid;
     align-content: center;
@@ -340,6 +352,7 @@ a{
     bottom:620px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
+
 .triangle{
     width: 0;
     height: 0;
@@ -349,8 +362,8 @@ a{
     position:absolute;
     bottom:620px;
     left: -50px;
-
 }
+
 .triangle2{
     width: 0;
     height: 0;
@@ -361,49 +374,49 @@ a{
     bottom:615px;
     left: -50px;
 }
+
 .footer-content{
     display: flex;
-    
     margin-top:20px;
     background-color:white;
     justify-content: space-around;
-    
     padding:10px;
     height:300px;
     margin-bottom:50px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
-    
 }
+
 .last-paragraphs1, .last-paragraphs2{
     display:flex;
     flex-direction: column;
-    
 }
+
 .last-paragraphs1{
     width:500px;
     line-height:30px;
     margin-right:20px;
     padding-bottom: 0px;
-    
 }
+
 .last-paragraphs2{
     margin-left:20px;
     padding-right: 20px;
     margin-top:5px;
 }
+
 .footer-1{
     font-size: 30px;
     margin-bottom: 0px;
     margin-top:15px;
 }
+
 /*SECOND SET OF ICONS */
+
 .icons2{
 display: flex;
 align-items: center;
-
-
-
 }
+
 .facebook2, .rss2, .twitter2, .youtube2{
     height:50px;
     width:50px;
@@ -414,9 +427,11 @@ align-items: center;
     align-items: center;
     justify-content: center;
 }
+
 .rss2, .twitter2, .youtube2{
     margin-left:5px;
 }
+
 .facebook2{
     background-color: rgb(80,80,80);
     display:flex;
@@ -440,6 +455,7 @@ width:400px;
 padding-top:20px;
 margin-top:5px;
 }
+
 input{
     margin-bottom: 15px;
     font-size: 14px;
@@ -459,20 +475,54 @@ textarea{
     border-right:1px solid #ccc;
     border-bottom:1px solid #ccc;
 }
+
 button{
     width:130px;
     height:30px;
     background-color: rgb(169,39,44);
     color:white;
     margin-top:20px;
-
 }
+
 .button{
-    
-  
     display: flex;
     justify-content: flex-end;
 }
+
 a:active{
     outline:0;
+}
+/* MEDIA QUERY */
+@media only screen and (max-width:1000px){
+    .redArrow{display:none}
+}
+@media only screen and (max-width:768){
+
+}
+@media only screen and (max-width:1000px){
+    body{width:100%}
+    li{
+        display:flex;
+        height:40px;
+        width:30%;
+        background-color: rgb(169,39,44);
+        list-style: none;
+        text-align: center;
+        box-shadow: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        margin-left:0px;
+        text-decoration: none;
+        justify-content: center;
+        font-size: 10px; 
+    }
+    ul.nav{display: flex; justify-content: flex-start; width:50%; }
+    li:hover{ background-color: rgb(128, 45, 45); border-radius: 5px; margin:0px 1px 0px 1px;}
+    .container{width:768px}
+    .firstLink{font-size:10px; }
+    .header{display:flex; justify-content: flex-start; margin-left:10px;}
+    .myHeader{display:flex; }
+    .facebook, .rss, .twitter, .youtube{margin:0px; box-shadow: none;}
+    .facebook:hover, .rss:hover, .twitter:hover, .youtube:hover{background-color:#999}
+
 }
