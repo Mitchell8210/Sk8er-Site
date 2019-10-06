@@ -103,6 +103,8 @@ font-size:40px;
 color:white;
 text-align:center;
 }
+.facebook:hover, .rss:hover, .twitter:hover, .youtube:hover{background-color:#999}
+
 
 /* END OF HEADER --- BEGGINNING OF NAVIGATION BAR --- */
 
@@ -131,6 +133,7 @@ li{
     text-decoration: none;
     justify-content: center; 
 }
+li:hover{ background-color: rgb(128, 45, 45); border-radius: 5px; margin:0px 1px 0px 1px;}
 a{
     color:white;
     text-decoration: none;
@@ -448,6 +451,7 @@ align-items: center;
 .youtube2{
     background-color: rgb(117,117,117);
 }
+.facebook2:hover, .rss2:hover, .twitter2:hover, .youtube2:hover{background-color:#999}
 
 /* CONTACT US FORM*/
 form{
@@ -488,7 +492,11 @@ button{
     display: flex;
     justify-content: flex-end;
 }
-
+button:hover{
+    background-color:rgb(128,45,45);
+    border-radius: 5px;
+    
+}
 a:active{
     outline:0;
 }
@@ -516,13 +524,26 @@ a:active{
         justify-content: center;
         font-size: 10px; 
     }
-    ul.nav{display: flex; justify-content: flex-start; width:50%; }
+    ul.nav{display: flex; margin:auto; width:50%; }
     li:hover{ background-color: rgb(128, 45, 45); border-radius: 5px; margin:0px 1px 0px 1px;}
     .container{width:768px}
     .firstLink{font-size:10px; }
-    .header{display:flex; justify-content: flex-start; margin-left:10px;}
+    .header{display:flex;  margin:auto;}
     .myHeader{display:flex; }
     .facebook, .rss, .twitter, .youtube{margin:0px; box-shadow: none;}
     .facebook:hover, .rss:hover, .twitter:hover, .youtube:hover{background-color:#999}
-
+    .top-image{width:900px; margin:auto;}
+    .top-image-grid{width:880px; margin:auto;}
+    .logo{width:300px;}
+    .radio, .radio2, .radio3{visibility: hidden;}
+    .main-paragraphs{width:900px; margin:auto;}
+    .Grid-management{width:900px; margin:10px auto 10px auto}
+    .head-image1, .head-image2, .aside-image, .footer-image{ box-shadow: none}
+    .aside-image{background-size:300%}
+    .head-image1{background-size: 180%}
+    .skateboards{width:900px; margin:auto}
+    .footer-content{width:900px; margin:20px auto 40px auto}
+    .redArrow{display: none; box-shadow: none}
+    .triangle{display:none;}
+    .triangle2{display: none}
 }
