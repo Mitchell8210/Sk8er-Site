@@ -241,21 +241,21 @@ a{
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
 
-.q{
+.headline{
  font-size:24px;
 }
 
-.w{
+.date{
     font-size: 14px;
     color:#ccc;  
 }
 
-.e{
+.article{
     font-size:12px;
     line-height:20px;
 }
 
-.r{
+.readmore{
     text-align: center;
     font-size:14px;
     color:rgb(169,39,44);    
@@ -381,6 +381,7 @@ a{
     position:absolute;
     bottom:615px;
     left: -50px;
+    
 }
 
 .footer-content{
@@ -389,8 +390,9 @@ a{
     background-color:white;
     justify-content: space-around;
     padding:10px;
-    height:300px;
-    margin-bottom:50px;
+    height:400px;
+    padding-bottom: 100px;
+    margin-bottom:100px;
     box-shadow: 0px 5px rgba(255,255,255,0.3);
 }
 
@@ -490,10 +492,12 @@ button{
     height:30px;
     background-color: rgb(169,39,44);
     color:white;
-    margin-top:20px;
+    outline:none;
+    margin:-1px;
 }
 
 .button{
+    margin-top:20px;
     display: flex;
     justify-content: flex-end;
 }
@@ -524,9 +528,9 @@ a:active{
         justify-content: center;
         
     }
-    ul.nav{display: flex; margin:auto; width:50%; }
+    ul.nav{display: flex; margin:auto; }
     li:hover{ background-color: rgb(128, 45, 45); border-radius: 5px; margin:0px 1px 0px 1px;}
-    .container{width:768px}
+    .container{width:768px; display:flex; align-items: center; margin:auto;}
     .firstLink{font-size:10px;}
     .header{display:flex;  margin:auto;}
     .myHeader{display:flex; }
