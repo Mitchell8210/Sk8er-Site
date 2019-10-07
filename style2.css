@@ -1,0 +1,32 @@
+html{box-sizing: border-box;}
+*,*::before,*::after{box-sizing: inherit;}
+
+body{background-color: teal;}
+.thankyou{
+   margin-top:50px;
+    display:flex;
+    flex-direction: column;
+     
+    
+    align-items: center;}
+h1, h2{
+    display: flex;
+    align-items: center;
+}
+.change{
+    border-radius: 5px;
+    animation-name: bobby;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes bobby{
+    from{background-color:teal}
+    to{background-color:white}
+}
+h2{
+ font-size: 30px
+}
+p{
+    margin: 0px 3px 0px 3px;
+}
