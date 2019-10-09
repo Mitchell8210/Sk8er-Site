@@ -7,6 +7,7 @@ html{box-sizing: border-box;
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(./assets/bg.jpg);
     margin:0px;    
+    background-size:cover;
 }
 
 div.container{
@@ -530,7 +531,7 @@ a:active{
     }
     ul.nav{display: flex; margin:auto; }
     li:hover{ background-color: rgb(128, 45, 45); border-radius: 5px; margin:0px 1px 0px 1px;}
-    .container{width:768px; display:flex; align-items: center; margin:auto;}
+    .container{width:auto; display:flex; align-items: center; margin:auto;}
     .firstLink{font-size:10px;}
     .header{display:flex;  margin:auto;}
     .myHeader{display:flex; }
@@ -550,4 +551,209 @@ a:active{
     .redArrow{display: none; box-shadow: none}
     .triangle{display:none;}
     .triangle2{display: none}
+}
+
+/* SECOND MEDIA QUERY MAX WIDTH==600PX*/
+
+@media only screen and (max-width:600px){
+    body{width:100%}
+    li{
+        display:flex;
+        flex-wrap: wrap;
+        height:40px;
+        background-color: rgb(169,39,44);
+        list-style: none;
+        text-align: center;
+        box-shadow: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        margin:auto;
+        text-decoration: none;
+        justify-content: center;
+        
+    }
+   
+    ul.nav{
+        display: flex; 
+        flex-direction:column; 
+        margin:auto; 
+        width:100%;
+    }
+    li:hover{ 
+        background-color: rgb(128, 45, 45); 
+        border-radius: 5px; 
+        margin:0px 1px 0px 1px;
+    }
+    .container{ 
+        display:flex; 
+        flex-wrap: wrap; 
+        align-items: center; 
+        margin:auto;
+    }
+    .firstLink{
+        font-size:10px;
+    }
+    .header{
+        display:flex;  
+        justify-content: center; 
+        margin:auto; 
+    }
+    .myHeader{
+        display:flex; 
+        width:auto
+    }
+    .facebook, .rss, .twitter, .youtube{
+        margin:0px; 
+        box-shadow: none;
+    }
+    .facebook:hover, .rss:hover, .twitter:hover, .youtube:hover{
+        background-color:#999
+    }
+    .top-image{
+        display: none
+    }
+    .top-image-grid{
+        display:none;
+    }
+    .logo{
+        display: none;
+    }
+    .radio, .radio2, .radio3{
+        visibility: hidden;
+    }
+    .main-paragraphs{
+        width:500px; 
+        margin:auto; 
+        display: flex; 
+        flex-wrap: wrap;
+    }
+    .main-paragraph1,.main-paragraph2,.main-paragraph3{ 
+        margin-bottom: 10px;
+    }
+    .Grid-management{
+        display:flex; 
+        flex-wrap: wrap; 
+        width:500px; 
+        margin:10px auto 10px auto
+    }
+    .head-image1, .head-image2, .aside-image, .footer-image{ 
+        box-shadow: none; 
+        border:none;
+        height:200px; 
+        margin-bottom: 10px;
+        background-position-x: 0px; 
+        background-position-y: 0px;
+        background-size: 100%;
+        width:500px;
+    }
+
+    .skateboards{width:500px; display: flex; flex-wrap: wrap; margin:auto; margin-top:375px; size: 50%;}
+    .footer-content{display: flex; flex-wrap: wrap; justify-content: center; width:500px; padding-bottom: 600px; margin:20px auto 40px auto}
+    .redArrow{display: none; box-shadow: none}
+    .triangle{display:none;}
+    .triangle2{display: none}
+}
+
+/*MEDIA QUERY---WIDTH==300PX*/
+
+@media only screen and (max-width:375px){
+    body{width:100%}
+    li{
+        display:flex;
+        flex-wrap: wrap;
+        height:40px;
+        background-color: rgb(169,39,44);
+        list-style: none;
+        text-align: center;
+        box-shadow: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        margin:auto;
+        text-decoration: none;
+        justify-content: center;
+        
+    }
+   
+    ul.nav{
+        display: flex; 
+        flex-direction:column; 
+        margin:auto; 
+        width:100%;
+    }
+    li:hover{ 
+        background-color: rgb(128, 45, 45); 
+        border-radius: 5px; 
+        margin:0px 1px 0px 1px;
+    }
+    .container{ 
+        display:flex; 
+        flex-wrap: wrap; 
+        align-items: center; 
+        margin:auto;
+    }
+    .firstLink{
+        font-size:10px;
+    }
+    .header{
+        display:flex;  
+        justify-content: center; 
+        margin:auto; 
+
+    }
+    .myHeader{
+        display:flex; 
+        width:auto
+    }
+    .facebook, .rss, .twitter, .youtube{
+        margin:0px; 
+        box-shadow: none;
+    }
+    .facebook:hover, .rss:hover, .twitter:hover, .youtube:hover{
+        background-color:#999
+    }
+    .paragraphs{display: none;}
+    .top-image{
+        display: none
+    }
+    .top-image-grid{
+        display:none;
+    }
+    .logo{
+        display: none;
+    }
+    .radio, .radio2, .radio3{
+        visibility: hidden;
+    }
+    .main-paragraphs{
+        width:250px; 
+        margin:auto; 
+        display: flex; 
+        flex-wrap: wrap;
+    }
+    .main-paragraph1,.main-paragraph2,.main-paragraph3{ 
+        margin-bottom: 10px;
+    }
+    .Grid-management{
+        display:flex; 
+        flex-wrap: wrap; 
+        width:250px; 
+        margin:10px auto 10px auto
+    }
+    .head-image1, .head-image2, .aside-image, .footer-image{ 
+        box-shadow: none; 
+        border:none;
+        height:200px; 
+        margin-bottom: 10px;
+        background-position-x: 0px; 
+        background-position-y: 0px;
+        background-size: 100%;
+        width:500px;
+    }
+
+    .skateboards{width:250px; display: flex; flex-wrap: wrap; margin:auto; margin-top:375px; size: 50%;}
+    .footer-content{display: flex; flex-wrap: wrap; justify-content: center; width:250px; padding-bottom: 700px; margin:20px auto 40px auto; font-size: 10PX;}
+    .redArrow{display: none; box-shadow: none}
+    .triangle{display:none;}
+    .triangle2{display: none}
+    input{font-size: 9px;}
 }
